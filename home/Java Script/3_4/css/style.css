@@ -1,0 +1,38 @@
+body {
+	width: 100%;
+	height: 100%;
+	
+}
+
+h3 {
+	text-align: center;
+}
+
+form {
+	width: 50%;
+	margin: 0 auto;
+}
+
+input[type="checkbox"]{
+	float: left;
+	margin: 4px 7px 0 5%;
+}
+
+.answer {
+	display: block;
+}
+
+input[type="submit"]{
+	width: 50%;
+	display: block;
+	background-color:/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,f80845+0,f992af+100,7db9e8+100 */
+    background: #1e5799; /* Old browsers */
+    background: -moz-linear-gradient(top, #1e5799 0%, #f80845 0%, #f992af 100%, #7db9e8 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #1e5799 0%,#f80845 0%,#f992af 100%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #1e5799 0%,#f80845 0%,#f992af 100%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+	border-radius: 8px;
+	margin: 50px auto;
+	padding: 10px 0;
+	border: 2px solid #000;
+}
