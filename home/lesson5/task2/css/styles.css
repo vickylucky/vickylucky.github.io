@@ -16,7 +16,7 @@
   line-height: 35px;
 }
 .login{
-  line-height: 36px;
+  line-height: 35px;
   float: right;
   margin-right: 20px;
   text-align: center;
@@ -62,13 +62,13 @@
   background: #4eabda;
 }
 .wrapper{
-  position: relative;
+  position: absolute;
   height: 1025px;
   width:  100%;
   background-image: url(../img/bg.png);
 }
 .input-form{
- padding-top: 150px;
+  padding-top: 150px;
   vertical-align: baseline;
   top: 215px;
   margin: 0 auto;
@@ -90,23 +90,82 @@
   height: 550px; 
 }
 .facebook{
-  height: 70px;
-  margin: auto;
+  width: 280px;
+  margin: 0 auto;
+  padding-top: 35px;
 }
-.facebook-btn{
-  background: url(../img/login.png); 
+.fb {
+  margin-bottom: 32px;
+}
+.fb .icon {
+  float: left;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3d5794+0,314174+100 */
+  background: #3d5794; /* Old browsers */
+  background: -moz-linear-gradient(top,  #3d5794 0%, #314174 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #3d5794 0%,#314174 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #3d5794 0%,#314174 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3d5794', endColorstr='#314174',GradientType=0 ); /* IE6-9 */
   display: block;
-  top:35px;
-  position: relative;
-  margin: auto;
-  height: 35px;
-  width: 275px;
-  border:none;
-  box-shadow: 
+  width: 36px;
+  height: 20px;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 6px;
+  padding-bottom: 7px;
+  border-radius: 4px 0 0 4px;
+  border-top: 1px solid #7a88b5;
+  border-left: 1px solid #334166;
+  border-bottom: 1px solid #334166;
+  border-right: 1px solid #1f3d73;
 }
-.ou{
-  height: 75px;
-  background: url(../img/ou.png) 145px 35px no-repeat; 
+.fb .title {
+  display: inline-block;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3d5794+0,314174+100 */
+  background: #3d5794; /* Old browsers */
+  background: -moz-linear-gradient(top,  #3d5794 0%, #314174 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #3d5794 0%,#314174 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #3d5794 0%,#314174 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3d5794', endColorstr='#314174',GradientType=0 ); /* IE6-9 */
+  width: 238px;
+  height: 33px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  line-height: 33px;
+  border-radius: 0 4px 4px 0;
+  border-left: 1px solid #4c68a9;
+  border-right: 1px solid #334166;
+  border-top: 1px solid #7a88b5;
+  border-bottom: 1px solid #334166;
+  font-family: "Arial Bold", sans-serif;
+}
+.fb a:hover {
+  box-shadow: 0 0 2px rgba(0,0,0,0.5);
+}
+strong {
+  font-weight: bold;
+}
+h2{
+  margin: 30px 0;
+  color: #999999;
+  text-align: center;
+  
+}
+h2:before {
+  margin-right: 6px;
+}
+h2:after {
+  margin-left: 6px;
+}
+h2:before,
+h2:after {
+  content: '';
+  display: inline-block;
+  height: 1px;
+  width: 121px;
+  vertical-align: middle;
+  background-color: #000;
+  border-top: 1px solid #666;
 }
 .form{
   position: relative;
